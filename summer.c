@@ -64,8 +64,8 @@ int main(int argc, char *argv[])
 
 		//Creates 8 child-processes
 		int f1 = fork(),
-				f2 = fork(),
-				f3 = fork();
+		f2 = fork(),
+		f3 = fork();
 
 		//Non-overlapping sub-arrays are alloted to each process
 		if ( f1 > 0 ) {
