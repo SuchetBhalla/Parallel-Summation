@@ -15,8 +15,8 @@ int main(int argc, char *argv[])
 	The file's content's are known, it has 1000 integers,
 	in the range 0 till 9.
 	*/
-	int size = 1000;
-	short arr[size];
+	int size = 1000,
+	arr[size];
 
 	//Reads data from the file
 	char *filename = argv[2];
